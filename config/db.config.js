@@ -14,7 +14,7 @@ const connectDB=async()=>{
         })
     } catch (error) {
         console.log(error.message)
-        setTimeout(connectDB,5000)
+        setTimeout(connectDB,20000)
     }
 }
 
