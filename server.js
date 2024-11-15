@@ -29,7 +29,7 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(authJwt());
+// app.use(authJwt());
 app.use(errorHandler);
 app.use('/api/v1/auth', AuthRoutes);
 app.use('/api/v1/admin', AdminRoutes);
